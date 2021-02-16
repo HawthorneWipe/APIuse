@@ -4,6 +4,7 @@ import os
 kiwi_endpoint = os.getenv('kiwi_endpoint')
 kiwi_endpoint_search = os.getenv('kiwi_endpoint_search')
 kiwi_api_key = os.getenv('KIWI_API_KEY')
+#For now, hardcode the departure place
 FLY_FROM = "GLA"
 
 class FlightSearch:
