@@ -4,5 +4,5 @@ load_dotenv(find_dotenv(), verbose=True)
 from data_manager import DataManager
 from flight_search import FlightSearch
 
-#Create DataManager instance and initiate - fills the IATA Code column in google spreadsheet. It will ask for authentication from Google
+#Create DataManager instance and initiate - fills the IATA Code column in google spreadsheet. Requires service email shared with Google Sheet
 dm = DataManager()
