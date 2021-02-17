@@ -4,7 +4,7 @@ import os
 
 
 class FlightSearch:
-    FLY_FROM = 'GLA'
+    FLY_FROM = os.getenv('FLY_FROM')
     kiwi_api_key = os.getenv('KIWI_API_KEY')
     kiwi_endpoint = os.getenv('kiwi_endpoint')
     kiwi_endpoint_search = os.getenv('kiwi_endpoint_search')
