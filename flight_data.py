@@ -1,5 +1,4 @@
 from flight_search import FlightSearch
-import gsheetstest as gs
 
 class FlightData():
     # This class is responsible for structuring the flight data.
