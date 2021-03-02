@@ -1,4 +1,4 @@
-# APIuse
+# Google Sheet API for flight search
 <h5>Cheap flight search app</h5>
 
 Project is basically API communication, read write requests etc.
